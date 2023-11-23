@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Pixel;
+    src: url(/fonts/undertale_battle_font.ttf);
+}
+
+    @font-face {
+        font-family: Gilroy;
+        src: url(/fonts/Gilroy-Semibold.ttf);
+    }
+
+
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+.container {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.name__title {
+    color: #f2f2f2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: Pixel;
+    font-size: 70px;
+}
+
+.name__subtitle {
+    color: #f2f2f2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: Pixel;
+    font-size: 20px;
+}
+
+.possibilities__name {
+    color: #f2f2f2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: Pixel;
+    font-size: 70px;
+}
+
+.possibilities__icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.possibilities__icons img {
+    height: 100px;
+}
+
+.poss__card {
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    height: 300px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px ;
+    font-family: Gilroy;
+    font-size: 20px;
+
+}
+
+.poss__column {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.poss__card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    transform: translateY(0);
+    box-shadow: none;
+  }
+  
+  .poss__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 20px 20px 5px rgba(127, 127, 127, 0.5);
+  }
+
+  .port__title {
+    color: #f2f2f2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: Pixel;
+    font-size: 70px;
+  }
+
+  .port__card {
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    height: 300px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px ;
+    font-family: Gilroy;
+    font-size: 20px;
+  }
+
+  .port__collumn {
+    display: flex;
+    gap: 20px;
+  }
+  
