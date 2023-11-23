@@ -47,7 +47,7 @@ a, p {
 	padding: 20px;
 	width: 100%;
 
-	background-image: url('/web-21-html-party/images/backgroundyyy.jpg');
+	background-image: url('images/backgroundyyy.jpg');
 	background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
