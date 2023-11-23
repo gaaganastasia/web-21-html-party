@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: radial-gradient(108.24% 84.01% at 56.32% 59.28%, #E3FF73 0%, #D388BB 20.12%, #BCA0A0 38%, #617AFF 100%);
+}
+
+.title {
+  color: #FFF;
+
+  font-family: 'Smooch Sans';
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 68px auto 0;
+  text-align: center;
+}
+
+.links {
+  margin: 54px 0 0 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.link {
+  color: #FFF;
+
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  text-decoration: none;
+}
